@@ -17,15 +17,15 @@
 #### 单缓冲区公式：
 * 由于为单缓冲区，因此Ts 与Tm无法并行，如图：
 * ![图片加载中...](./images/1.png)
-* 当Ts >Tc
-  - 总时间：T总=n*(Ts+Tm )+Tc
-* 当Ts <Tc
-  - 总时间：T总=n*(Tc+Tm )+Ts
+* 当Ts>Tc
+  - 总时间：T总=n*(Ts+Tm)+Tc
+* 当Ts<Tc
+  - 总时间：T总=n*(Tc+Tm)+Ts
 
 #### 双缓冲区公式：
 * Ts过程与Tm可以并行，Tm过程与Tc过程不能并行，如图：
 * ![图片加载中...](./images/2.png)
-* 当Ts >Tc
+* 当Ts>Tc
   - 总时间：T总=n*Ts+Tm+Tc
-* 当Ts <Tc
-  - 总时间：T总=n*(Tc+Tm )+Ts
+* 当Ts<Tc
+  - 总时间：T总=n*(Tc+Tm)+Ts
